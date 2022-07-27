@@ -6,7 +6,11 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "uniswap-bg-500": "#1F2128",
+      },
+    },
   },
   variants: {
     extend: {},
